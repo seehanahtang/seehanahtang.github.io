@@ -11,9 +11,9 @@ title                    : "Seehanah Tang"
 title_separator          : "-"
 name                     : &name "Seehanah Tang"
 description              : &description "personal description"
-url                      : https://seehanah-tang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://seehanahtang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "seehanah-tang/seehanah-tang.github.io"
+repository               : "seehanahtang/seehanahtang.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Seehanah Tang"
   avatar           : "profile.png"
-  bio              : "Sc.B. Candidate in Applied Mathematics-Computer Science, Brown University"
-  location         : "Providence, Rhode Island"
+  bio              : "M.S. Candidate, ORC @ MIT"
+  location         : "Cambridge, Massachusetts"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=4h9m-DsAAAAJ&hl=en"
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "seehanah-tang"
+  github           : "seehanahtang"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "seehanah-tang"
+  linkedin         : "seehanahtang"
   orcid            : 
   pinterest        :
   soundcloud       :
