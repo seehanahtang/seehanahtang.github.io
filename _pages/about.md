@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hey! I am a senior studying Applied Math-Computer Science at Brown University. Currently, I am focused on gaining more professional experience within the realm of industry and research. I have a strong enthusiasm for healthcare applications, and a significant portion of my research has been motivated by collaborative efforts with hospitals seeking to enhance the quality of life of their patients and operations. In my free time, I like to explore the outdoors and try new foods! 
+Hey! I am a first-year master’s student at the MIT [Operations Research Center] (https://orc.mit.edu) advised by Professor [Dimitris Bertsimas] (https://www.dbertsim.mit.edu), where I focus on applying optimization and data-driven methods to healthcare. Much of my research is inspired by collaborations with hospitals that aim to improve both patient quality of life and operational efficiency. In my free time, I enjoy exploring the outdoors, playing strategy card games, and trying new foods!
