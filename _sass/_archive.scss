@@ -103,11 +103,55 @@
     color: $dark-gray;
     background-color: $lighter-gray;
   }
+}
 
-  &--teaching {
-    color: mix(#000, $info-color, 35%);
-    background-color: mix(#fff, $info-color, 85%);
+/*
+   Publication rows
+   ========================================================================== */
+
+.pub__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  margin: 0.15em 0 0.5em;
+
+  .status-pill {
+    margin-bottom: 0;
   }
+}
+
+.archive__item-link {
+  font-size: $type-size-7;
+  font-weight: bold;
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/*
+   Teaching list rows
+   ========================================================================== */
+
+.teaching__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.teaching__title {
+  margin-bottom: 0.25em;
+}
+
+.teaching__tag {
+  flex-shrink: 0;
+  color: $gray;
+  font-size: $type-size-6;
+  white-space: nowrap;
 }
 
 /* remove border*/
