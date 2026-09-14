@@ -114,7 +114,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 0.6em;
-  margin: 0.15em 0 0.5em;
+  margin: 0.15em 0 0.15em;
 
   .status-pill {
     margin-bottom: 0;
@@ -185,7 +185,7 @@
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
 
-  .archive__item-title {
+  .archive__item-title a {
     text-decoration: underline;
   }
 }
