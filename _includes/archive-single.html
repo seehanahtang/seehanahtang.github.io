@@ -26,24 +26,54 @@
       </div>
     {% endif %}
 
+    {% if post.collection == 'publications' %}
+      {% case post.status %}
+        {% when 'in-prep' %}
+          <span class="status-pill status-pill--inprep">In Preparation</span>
+        {% when 'revise-resubmit' %}
+          <span class="status-pill status-pill--revise">Revise &amp; Resubmit</span>
+        {% else %}
+          <span class="status-pill status-pill--published">Published</span>
+      {% endcase %}
+    {% endif %}
+
+    {% if post.collection == 'teaching' %}
+      <span class="status-pill status-pill--teaching">{{ post.role | default: "Teaching Assistant" }}</span>
+    {% endif %}
+
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> 
+        <a href="{{ post.link }}">{{ title }}</a> <i class="fas fa-external-link-alt archive__item-title-link-icon" aria-hidden="true"></i>
       {% else %}
         <p>{{ title }}</p>
       {% endif %}
     </h2>
 
     {% if post.authors %}
-      <p>{{ post.authors }}</p>
+      <p class="archive__item-authors">{{ post.authors }}</p>
     {% endif %}
-    
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
     {% if post.collection == 'publications' %}
-      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      {% case post.status %}
+        {% when 'in-prep' %}
+          <p class="archive__item-venue">In preparation, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+        {% when 'revise-resubmit' %}
+          <p class="archive__item-venue">Submitted to <i>{{ post.venue }}</i> &middot; revise &amp; resubmit</p>
+        {% else %}
+          <p class="archive__item-venue">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+      {% endcase %}
+      {% if post.description %}
+        <p class="archive__item-blurb">{{ post.description }}</p>
+      {% endif %}
+    {% elsif post.collection == 'teaching' %}
+      <p class="archive__item-venue">{{ post.venue | default: "Brown University" }} &middot; {{ post.term }}</p>
+      {% if post.duties %}
+        <p class="archive__item-blurb">{{ post.duties }}</p>
+      {% endif %}
     {% elsif post.description %}
 
       <p>{{ post.description }} </p>

@@ -48,6 +48,68 @@
   }
 }
 
+.archive__item-title-link-icon {
+  margin-left: 0.35em;
+  font-size: 0.7em;
+  opacity: 0.5;
+}
+
+.archive__item-authors {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+  color: $dark-gray;
+  font-size: $type-size-6;
+}
+
+.archive__item-venue {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: $gray;
+  font-size: $type-size-6;
+}
+
+.archive__item-blurb {
+  margin-top: 0;
+  color: $dark-gray;
+  font-size: $type-size-6;
+}
+
+/*
+   Status pills (publications + teaching)
+   ========================================================================== */
+
+.status-pill {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  padding: 0.2em 0.75em;
+  font-family: $sans-serif;
+  font-size: $type-size-8;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border-radius: 999px;
+
+  &--published {
+    color: mix(#000, $success-color, 45%);
+    background-color: mix(#fff, $success-color, 80%);
+  }
+
+  &--revise {
+    color: mix(#000, $warning-color, 35%);
+    background-color: mix(#fff, $warning-color, 80%);
+  }
+
+  &--inprep {
+    color: $dark-gray;
+    background-color: $lighter-gray;
+  }
+
+  &--teaching {
+    color: mix(#000, $info-color, 35%);
+    background-color: mix(#fff, $info-color, 85%);
+  }
+}
+
 /* remove border*/
 .page__content {
 
