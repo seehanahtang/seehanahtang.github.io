@@ -39,7 +39,7 @@
       </div>
     {% elsif post.collection == 'publications' %}
       <h2 class="archive__item-title" itemprop="headline">
-        <p>{{ title }}</p>
+        {{ title }}
       </h2>
       <div class="pub__row">
         {% case post.status %}

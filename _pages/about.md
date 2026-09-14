@@ -12,6 +12,6 @@ Hey! I am a second-year PhD student at the MIT [Operations Research Center](http
 
 Currently, I am involved in the Holistic AI in Medicine team in collaboration with Hartford Healthcare, leading a project for bloodstream infection detection, where we leverage multimodal AI to reduce unnecessary blood cultures in the emergency department without missing high-risk patients. I am also involved in the Unified Diagnostics initiative, applying multiomics data to enable earlier and more precise disease detection.
 
-Outside of research, I play flute in the MIT Symphony Orchestra, am an avid traveler, and enjoy puzzling and strategy card games.
+Outside of research, I play flute in the Kendall Square Orchestra, am an avid traveler, and enjoy strategy card games.
 
 If any of this overlaps with your interests, feel free to reach out!
