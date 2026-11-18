@@ -99,6 +99,16 @@
     background-color: mix(#fff, $warning-color, 80%);
   }
 
+  &--accepted {
+    color: mix(#000, $success-color, 45%);
+    background-color: mix(#fff, $success-color, 80%);
+  }
+
+  &--submitted {
+    color: mix(#000, $info-color, 35%);
+    background-color: mix(#fff, $info-color, 80%);
+  }
+
   &--inprep {
     color: $dark-gray;
     background-color: $lighter-gray;
